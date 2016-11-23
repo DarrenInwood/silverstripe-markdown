@@ -9,7 +9,7 @@
 
 class MarkdownExtension extends DataExtension {
 
-    private static $replace_html_fields = true;
+    private static $replace_html_fields = false;
     private static $db_field_cache = array();
     private static $disable_markdown_fields = false;
 
